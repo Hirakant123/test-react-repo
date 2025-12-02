@@ -4,18 +4,6 @@ export const Ticker = () => {
 
     let [isTickking, setIsTickking] = useState(0)
 
-    // useEffect(() =>{
-    //     let TickerId = setInterval(()=>{
-    //         setIsTickking(isTickking + 1)
-    //     },1500)
-
-    //     console.log("byyy")
-
-    //     return()=>{
-    //         console.log("hello")
-    //         // clearInterval(TickerId)
-    //     }
-    // }, [])
 
     useEffect(() => {
         let TickerId = setInterval(() => {
